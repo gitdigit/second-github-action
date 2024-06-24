@@ -7,6 +7,10 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
+     
+      - name: Update README.md file
+        run: |
+            node index.js > README.file
       - uses: wow-actions/update-file@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
