@@ -1,7 +1,6 @@
 module.exports = `# I'm trying to update READMe file
 
-Update file Automation 38
-
+Update file Automation 39
 Last update on <#today_date>
 
 `;
